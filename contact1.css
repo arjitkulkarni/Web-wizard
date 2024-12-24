@@ -1,0 +1,52 @@
+/* General body styles */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #FFA500; /* Orange text */
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+.contact-info {
+    background-color: #333; /* Dark grey background */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 600px;
+}
+
+.contact-info h2 {
+    color: #FFA500; /* Orange text */
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #222; /* Slightly lighter black for contrast */
+    padding: 10px;
+}
+
+footer p {
+    color: #FFA500; /* Orange text */
+    margin: 0;
+}

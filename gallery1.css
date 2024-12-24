@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;  /* Dark background for Halloween */
+    color: #fff;  /* Light text color */
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f1f1f1;  /* Off-white for the heading */
+    font-size: 2.5em;
+}
+
+/* Gallery section styling */
+.gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  /* Smaller image sizes */
+    gap: 15px;  /* Spacing between images */
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);  /* Shadow for a spooky effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);  /* Slight zoom-in effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+/* Additional styling for the dark theme */
+body::before {
+    content: '';
+    background: url('halloween_background.png'); /* Optional Halloween background */
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.05;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}

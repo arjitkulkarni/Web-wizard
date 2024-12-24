@@ -1,0 +1,82 @@
+/* General body styles */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark background */
+    color: #FFA500; /* Orange heading */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Events section styles */
+.events {
+    padding: 20px;
+    text-align: center;
+}
+
+.events h2 {
+    color: #FFA500; /* Orange text for section heading */
+    margin-bottom: 20px;
+}
+
+.event-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.event-card {
+    background-color: #222; /* Dark grey background for cards */
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #FFA500; /* Orange border under image */
+}
+
+.event-card h3 {
+    margin: 10px 0;
+    color: #FFA500; /* Orange text for event title */
+}
+
+.event-card p {
+    margin: 10px 0;
+}
+
+.event-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #FFA500; /* Orange button */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.event-btn:hover {
+    background-color: #ff8400; /* Slightly darker orange on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    color: #FFA500;
+}

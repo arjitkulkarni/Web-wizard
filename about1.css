@@ -1,0 +1,61 @@
+/* General body styles */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    position: relative;
+    background-color: #333; /* Dark background */
+    color: #FFA500; /* Orange heading */
+    padding: 20px;
+    text-align: left;
+}
+
+/* Logo in the header, positioned in the top right */
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    height: auto;
+}
+
+/* About section */
+.about {
+    padding: 20px;
+    background-color: #222; /* Slightly lighter black for contrast */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.about h2 {
+    color: #FFA500; /* Orange headings */
+}
+
+.about p, .about ul {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    color: #FFA500;
+}
